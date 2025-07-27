@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base{
+    *{
+        box-sizing: border-box;
+        outline: none;
+    }
+    body{
+        background-image: url(../dist/images/bg.jpg);
+    }
+}

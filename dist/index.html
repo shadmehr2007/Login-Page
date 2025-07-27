@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body class="h-screen bg-cover mx-auto mt-24 overflow-hidden">
+    <form
+      class=" container bg-[rgba(255,255,255,0.02)] mx-auto flex flex-col items-center border-2 border-[rgba(255,255,255,0.7)]  text-white w-72 p-2 backdrop-blur-lg md:w-96 rounded-2xl"
+    >
+      <h2 class="title text-4xl font-bold p-4 md:p-6">Login</h2>
+
+      <div class="bars flex flex-col justify-center items-center gap-2 w-full md:mb-2">
+        <input class="border-2 w-4/5 px-1 border-[rgba(255,255,255,0.7)]  rounded-xl md:py-0.5 md:rounded-full placeholder:text-[rgba(255,255,255,0.7)] focus:w-5/6 focus:placeholder:text-white duration-200 focus:border-white" type="text" placeholder="Username"/>
+        <input class="border-2 w-4/5 px-1 border-[rgba(255,255,255,0.7)]  rounded-xl md:py-0.5 md:rounded-full placeholder:text-[rgba(255,255,255,0.7)] focus:w-5/6 focus:placeholder:text-white duration-200 focus:border-white" type="password" placeholder="Password"/>
+      </div>
+      <div class="savePass w-3/5 m-2 flex items-center gap-1.5 mb-4">
+        <input type="checkbox" name="" id="">
+        <span>Save Password</span>
+      </div>
+      <div class="buttons mb-3 flex items-center gap-1.5 md:mb-4">
+            <input class="border-2 border-white text-gray-800 w-16 bg-white font-bold backdrop-blur-2xl rounded-lg px-3 py-1 h-8 md:h-9 active:bg-transparent active:text-white" type="reset" value="Reset">
+            <input class="border-2 border-white bg-white px-3 py-1 text-gray-800 text-md backdrop-blur-2xl font-bold rounded-lg w-24 h-8 md:h-9 active:bg-transparent  active:text-white" type="button" value="Login">
+      </div>
+    </form>
+  </body>
+</html>
